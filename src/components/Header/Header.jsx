@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import './Header.css';
 const Header = () => {
   return (
@@ -9,7 +10,10 @@ const Header = () => {
           magni velit ut ipsam tenetur? Modi, dicta? Aliquam facere assumenda
           mollitia maiores eveniet incidunt dolor vero ea? Explicabo nam
         </p>
-        <button>View Menu</button>
+        <button>
+          {' '}
+          <a href="#explore-menu">View Menu</a>
+        </button>
       </div>
     </div>
   );
