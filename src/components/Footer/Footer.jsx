@@ -5,11 +5,11 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <img src={assets.logo1} alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-            dolore voluptatibus exercitationem iusto dolor asperiores sint sequi
-            porro quos tempore!
+            food for the body is not <br />
+            enough.There must be food <br />
+            for the soul.
           </p>
           <div className="footer-social-icon">
             <img src={assets.facebook_icon} alt="" />

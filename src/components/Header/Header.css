@@ -2,9 +2,13 @@
   height: 34vw;
   margin: 30px auto;
 
-  background: url('/header_img.png') no-repeat;
-  background-size: contain;
+  background: url('./header1.png') no-repeat center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   position: relative;
+  border-radius: 20px;
 }
 .header-contents {
   position: absolute;
@@ -16,15 +20,24 @@
   bottom: 10%;
   left: 6vw;
   animation: fadeIn 3s;
+  background-color: transparent !important;
 }
 .header-contents h2 {
   font-weight: 500;
   color: white;
   font-size: max(4.5vw, 22px);
+  font-family: canto, serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: transparent !important;
 }
 .header-contents p {
   color: white;
   font-size: 1vw;
+  background-color: transparent !important;
+}
+.header-contents button a {
+  background-color: transparent !important;
 }
 .header-contents button {
   border: none;

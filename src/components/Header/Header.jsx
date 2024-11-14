@@ -4,15 +4,16 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-contents">
-        <h2>Order your Fav food here</h2>
+        <h2>
+          Enjoy your <br /> Delicious Food
+        </h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          magni velit ut ipsam tenetur? Modi, dicta? Aliquam facere assumenda
-          mollitia maiores eveniet incidunt dolor vero ea? Explicabo nam
+          After A Good Dinner One Can Forgive Anybody, Even <br /> One's Own
+          Relations.
         </p>
         <button>
           {' '}
-          <a href="#explore-menu">View Menu</a>
+          <a href="#explore-menu">Order Now</a>
         </button>
       </div>
     </div>

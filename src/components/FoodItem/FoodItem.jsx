@@ -2,6 +2,15 @@ import { useContext, useState } from 'react';
 import { assets } from '../../assets/assets';
 import './FoodItem.css';
 import { storeContext } from '../../context/StoreContext';
+function truncateText(text, limit) {
+  const words = text.split(' ');
+
+  if (words.length > limit) {
+    return words.slice(0, limit).join(' ') + '...';
+  }
+
+  return text;
+}
 const FoodItem = ({ id, name, price, description, image }) => {
   const { cartItems, addToCart, removeFromCart, url } =
     useContext(storeContext);
@@ -41,7 +50,7 @@ const FoodItem = ({ id, name, price, description, image }) => {
           <p>{name}</p>
           <img src={assets.rating_starts} alt="" />
         </div>
-        <p className="food-item-desc">{description}</p>
+        <p className="food-item-desc">{truncateText(description, 10)}</p>
         <p className="food-item-price">${price}</p>
       </div>
     </div>

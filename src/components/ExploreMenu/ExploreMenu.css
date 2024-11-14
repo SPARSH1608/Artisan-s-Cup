@@ -1,24 +1,32 @@
 .explore-menu {
   display: flex;
+  width: 70%;
+  margin: auto;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 .explore-menu h1 {
   color: #262626;
-  font-weight: 500;
+  letter-spacing: -1.3px;
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: max(2.5vw, 38px);
 }
 .explore-menu-text {
-  max-width: 60%;
-  color: #808080;
+  max-width: 100%;
+  columns: #808080;
+  text-align: center;
 }
 .explore-menu-list {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
   align-items: center;
+  gap: 30px;
   text-align: center;
   margin: 20px 0px;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 .explore-menu-list::-webkit-scrollbar {
   display: none;
@@ -32,9 +40,11 @@
 }
 .explore-menu-list-item p {
   margin-top: 10px;
-  color: #747474;
+  color: #323232;
   font-size: max(1.4vw, 16px);
   cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
 }
 .explore-menu hr {
   margin: 10px 0px;
@@ -51,4 +61,7 @@
     max-width: 100%;
     font-size: 14px;
   }
+}
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
 }

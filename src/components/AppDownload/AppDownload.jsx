@@ -3,10 +3,12 @@ import './AppDownload.css';
 const AppDownload = () => {
   return (
     <div className="app-download" id="app-download">
-      <p>
-        For Better Experience Download <br />
-        Rustin Cafe App
-      </p>
+      <img src={assets.banner} alt="" />
+      <span>
+        For Better Experience <br />
+        Download <br />
+        Artisan Cup App
+      </span>
       <div className="app-download-platform">
         <img src={assets.play_store} alt="" />
         <img src={assets.app_store} alt="" />

@@ -93,12 +93,12 @@ const LoginPopup = ({ setShowLogin }) => {
           <p>By continuing, i agree to the terms of use & privacy policy.</p>
         </div>
         {currentState === 'Login' ? (
-          <p>
+          <p className="login-popup-change">
             Create a new account?{' '}
             <span onClick={() => setCurrentState('Sign Up')}>Click here</span>
           </p>
         ) : (
-          <p>
+          <p className="login-popup-change">
             Already have an account?{' '}
             <span onClick={() => setCurrentState('Login')}>Login here</span>
           </p>

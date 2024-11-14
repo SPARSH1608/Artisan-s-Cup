@@ -24,35 +24,42 @@
   justify-content: space-between;
   align-items: center;
   color: black;
+  background-color: white !important;
+}
+.login-popup-title h2 {
+  background-color: white !important;
 }
 
 .login-popup-title img {
   width: 16px;
   cursor: pointer;
+  background-color: white !important;
 }
 .login-popup-inputs {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: white !important;
 }
 .login-popup-inputs input {
   outline: none;
   border: 1px solid #c9c9c9;
   padding: 10px;
   border-radius: 4px;
+  background-color: white !important;
 }
 .login-popup-container button {
   border: none;
   padding: 10px;
   border-radius: 4px;
   color: white;
-  background-color: tomato;
+  background-color: red;
   font-size: 15px;
   cursor: pointer;
 }
 .login-popup-condition {
   display: flex;
-
+  background-color: white !important;
   align-items: start;
   gap: 8px;
   margin-top: -15px;
@@ -60,8 +67,15 @@
 .login-popup-condition input {
   margin-top: 5px;
 }
+.login-popup-condition p {
+  background-color: white !important;
+}
 .login-popup p span {
   color: tomato;
+  background-color: white !important;
   font-weight: 500;
   cursor: pointer;
+}
+.login-popup-change {
+  background-color: white !important;
 }

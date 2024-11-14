@@ -4,8 +4,27 @@
   font-size: max(3vw, 20px);
   text-align: center;
   font-weight: 500;
+  position: relative;
+}
+.app-download span {
+  text-align: center;
+  display: block;
+  font-size: max(2.7vw, 20px);
+  font-weight: 700;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top: 6vh;
+  left: 44%;
+}
+.app-download img {
+  width: 100%;
+  border-radius: 15px;
 }
 .app-download-platform {
+  position: absolute;
+  top: 25vh;
+  left: 44%;
+
   display: flex;
   justify-content: center;
   gap: max(2vw, 10px);

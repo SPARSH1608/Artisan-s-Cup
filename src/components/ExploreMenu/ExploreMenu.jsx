@@ -2,13 +2,14 @@ import './ExploreMenu.css';
 import { menu_list } from '../../assets/assets';
 
 const ExploreMenu = ({ category, setCategory }) => {
-  console.log(category);
+  // console.log(category);
   return (
     <div className="explore-menu" id="explore-menu">
-      <h1>Explore our menu</h1>
+      <h1> Our Menu</h1>
       <p className="explore-menu-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quaerat
-        vero suscipit iste autem delectus eum quia ipsum minus a.
+        Food For Us Comes From Our Relatives, Whether They Have Wings Or Fins Or
+        Roots. That Is How We consider Food. Food Has A Culture. It has A
+        History . It Has A Story . It Has Relationships.
       </p>
       <div className="explore-menu-list">
         {menu_list.map((item, index) => {
