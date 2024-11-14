@@ -4,40 +4,24 @@
   font-size: max(3vw, 20px);
   text-align: center;
   font-weight: 500;
-  position: relative;
 }
-.app-download span {
-  text-align: center;
-  display: block;
-  font-size: max(2.7vw, 20px);
-  font-weight: 700;
+.app-download p {
   font-family: 'Dancing Script', cursive;
-  position: absolute;
-  top: 6vh;
-  left: 44%;
+  font-weight: 600;
+  font-size: 40px;
 }
-.app-download img {
-  width: 100%;
-  border-radius: 15px;
-}
-.app-download-platform {
-  position: absolute;
-  top: 25vh;
-  left: 44%;
-
+.app-download-platforms {
   display: flex;
   justify-content: center;
   gap: max(2vw, 10px);
   margin-top: 40px;
 }
-
-.app-download-platform img {
+.app-download-platforms img {
   width: max(30vw, 120px);
   max-width: 180px;
   transition: 0.5s;
   cursor: pointer;
 }
-
-.app-download-platform img:hover {
+.app-download-platforms img:hover {
   transform: scale(1.05);
 }
