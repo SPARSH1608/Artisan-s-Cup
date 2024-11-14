@@ -84,12 +84,18 @@
   align-items: center;
   gap: 10px;
   cursor: pointer;
+  background-color: #fff2ef;
+}
+.nav-profile-dropdown li p {
+  background-color: #fff2ef;
 }
 .nav-profile-dropdown img {
   width: 20px;
+  background-color: #fff2ef;
 }
 .nav-profile-dropdown li:hover {
   color: tomato;
+  background-color: #fff2ef;
 }
 @media (max-width: 1050px) {
   .navbar .logo {

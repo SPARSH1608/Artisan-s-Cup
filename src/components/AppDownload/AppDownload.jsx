@@ -9,10 +9,6 @@ const AppDownload = () => {
         Download <br />
         Artisan Cup App
       </span>
-      <div className="app-download-platform">
-        <img src={assets.play_store} alt="" />
-        <img src={assets.app_store} alt="" />
-      </div>
     </div>
   );
 };
