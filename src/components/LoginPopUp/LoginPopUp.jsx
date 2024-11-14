@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react';
-import './loginPopup.css';
+import './LoginPopUp.css';
 import { assets } from '../../assets/assets';
 
 import axios from 'axios';
